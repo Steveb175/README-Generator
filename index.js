@@ -1,7 +1,7 @@
 // Packages
 const inquirer = require("inquirer");
 const { writeFile } = require("fs").promises;
-const generateMarkdown = require(".utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // Questions
 const promptUser = () => {
@@ -64,3 +64,4 @@ const promptUser = () => {
 };
 
 module.exports = promptUser;
+promptUser();
