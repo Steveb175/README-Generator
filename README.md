@@ -1,8 +1,8 @@
 
-  # Readme-Generator
+  # yes
 
   ## Description
-    It's a cool tool to make a README!
+    yes
   
   ## Table of Contents
   - [Description](#description)
@@ -14,18 +14,18 @@
   - [Questions](#questions)
 
   ## Installation
-  Packages required to use this application: Inquirer
+  Packages required to use this application: yes
 
   ## Usage
-  This application can be used to quickly create a README.md for any developer!
+  yes
 
   ## License
   MIT
 
   ## Tests
-  To run a test, run this command: node index.js
+  To run a test, run this command: yes
 
   ## Questions
-  Please direct all questions to fake@email.com
-  Link to creator's GitHub: https://github.com/steveb175
+  Please direct all questions to no  
+  Link to creator's GitHub: [steveb175](https://github.com/steveb175)
 

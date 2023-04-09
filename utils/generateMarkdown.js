@@ -29,8 +29,8 @@ function generateMarkdown(data) {
   To run a test, run this command: ${data.tests}
 
   ## Questions
-  Please direct all questions to ${data.email}
-  Link to creator's GitHub: ${gitHub}
+  Please direct all questions to ${data.email}  
+  Link to creator's GitHub: [${data.username}](${gitHub})
 
 `;
 }
