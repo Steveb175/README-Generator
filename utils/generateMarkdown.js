@@ -31,37 +31,43 @@ function generateMarkdown(data) {
 
   //README layout
   return `
-  # ${data.title}
+# ${data.title}
 
-  ${licenseBadge}
+${licenseBadge}
 
-  ## Description
-    ${data.description}
-  
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributors](#contributors)
-  - [Tests](#tests)
-  - [Questions](#questions)
+## Description
+  ${data.description}
 
-  ## Installation
-  Packages required to use this application: ${data.installation}
+## Table of Contents
+- [Description](#description)
 
-  ## Usage
-  ${data.usage}
+- [Installation](#installation)
 
-  ## License
-  ${data.license}
+- [Usage](#usage)
 
-  ## Tests
-  To run a test, run this command: ${data.tests}
+- [License](#license)
 
-  ## Questions
-  Please direct all questions to ${data.email}  
-  Link to creator's GitHub: [${data.username}](${gitHub})
+- [Contributors](#contributors)
+
+- [Tests](#tests)
+
+- [Questions](#questions)
+
+## Installation
+Packages required to use this application: ${data.installation}
+
+## Usage
+${data.usage}
+
+## License
+${data.license}
+
+## Tests
+To run a test, run this command: ${data.tests}
+
+## Questions
+Please direct all questions to ${data.email}  
+Link to creator's GitHub: [${data.username}](${gitHub})
 
 `;
 }
