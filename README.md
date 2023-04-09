@@ -1,31 +1,22 @@
+# README-Generator
 
-  # yes
+## Description
 
-  ## Description
-    yes
-  
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributors](#contributors)
-  - [Tests](#tests)
-  - [Questions](#questions)
+This application allows users to quickly create a README file by using inquirer.
+## Visuals
+![Example Visual](images/readme-commandline.PNG)
+## Usage
 
-  ## Installation
-  Packages required to use this application: yes
+The purpose of this application is to allow developers to quickly create README files without the hassle of having to apply proper markdown syntax.
 
-  ## Usage
-  yes
+## URL
 
-  ## License
-  MIT
+https://steveb175.github.io/README-Generator/
 
-  ## Tests
-  To run a test, run this command: yes
+## Credits
 
-  ## Questions
-  Please direct all questions to no  
-  Link to creator's GitHub: [steveb175](https://github.com/steveb175)
+[Inquirer](https://www.npmjs.com/package/inquirer)
 
+## License
+
+MIT
