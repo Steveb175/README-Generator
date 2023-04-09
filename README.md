@@ -22,3 +22,11 @@ https://steveb175.github.io/README-Generator/
 ## License
 
 MIT
+## Tests
+To run a test, run this command: Test command
+
+## Questions
+  
+Please direct all questions to email  
+Link to creator's GitHub: [Username](https://github.com/Username)
+

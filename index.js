@@ -2,6 +2,7 @@
 const inquirer = require("inquirer");
 const { writeFile } = require("fs").promises;
 const generateMarkdown = require("./utils/generateMarkdown.js");
+const path = require("path");
 
 // Questions
 const promptUser = () => {
@@ -56,10 +57,11 @@ const promptUser = () => {
             "Please provide an email for users to contact you with questions.",
         },
       ])
-      //Creates the ReadMe file and adds a success message if it works!
+      //Creates the ReadMe file and adds a success message if it works! (Placed in New-README folder)
       .then((answers) => {
         const readmePageContent = generateMarkdown(answers);
-        writeFile("README.md", readmePageContent)
+        const outputPath = path.join(__dirname, "New-README", "README.md");
+        writeFile(outputPath, readmePageContent)
           .then(() => console.log("Successfully created README.md!"))
           .catch((err) => console.log(err));
       })
