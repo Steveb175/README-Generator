@@ -23,10 +23,10 @@ https://steveb175.github.io/README-Generator/
 
 MIT
 ## Tests
-To run a test, run this command: Test command
+To run a test, run this command: node index.js
 
 ## Questions
   
 Please direct all questions to email  
-Link to creator's GitHub: [Username](https://github.com/Username)
+Link to creator's GitHub: [Steveb175](https://github.com/Steveb175)
 
